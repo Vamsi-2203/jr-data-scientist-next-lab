@@ -1,7 +1,15 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import textblob
+from textblob import TextBlob
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+import nltk
+import re
 
+nltk.download('stopwords')
+from nltk.stem.porter import PorterStemmer
+from nltk.corpus import stopwords
 
 
 
