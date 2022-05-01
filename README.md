@@ -1,16 +1,3 @@
-# Evaluation-1
-```
-Name: Manaal Sxaena
-Applied position: Jr.Data Science
-Company: Next Growth Labs
-```
-## Installing
-![](https://forthebadge.com/images/badges/made-with-python.svg)
-
-The Code is written in Python 3.10. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
-```bash
-pip install -r requirements.txt
-```
 
 # Part 1
 
@@ -27,16 +14,6 @@ Sol: Wrote a simple regex code to solve the given problem, To see the code solut
 Your goal is to identify such ratings where review text is good, but rating is negative- so that the support team can point this to users. 
 
 Deploy it using - Flask/Streamlit etc and share the live link.
-
-Sol: Analysed data to figure out users who give low rating but leave good review. Built a Streamlit web application that takes data as input and shows users that displays incorrect rating and let's users download the dataset. Deployed the application on Streamlit share.
-
-Analysis - [(Part 1) Question-2](https://github.com/trickster-00/Evaluation-1/blob/cb062d9da83b1d6e29735b95c822569dd8154a7f/(Part%201)%20Question-2.ipynb)
-
-Web Application- [App](https://github.com/trickster-00/Evaluation-1/blob/cb062d9da83b1d6e29735b95c822569dd8154a7f/app/main.py)
-
-### Demo - 
-Working link - [https://share.streamlit.io/trickster-00/evaluation-app/main/main.py](https://share.streamlit.io/trickster-00/evaluation-app/main/main.py)
-![](https://github.com/trickster-00/Evaluation-1/blob/cb062d9da83b1d6e29735b95c822569dd8154a7f/img/3757f02a-1ce9-4edd-abd9-ac31035cecb7.png)
 
 ## Question-3
 3. Ranking Data - Understanding the co-relation between keyword rankings with description or any other attribute. [Here’s the dataset](https://github.com/trickster-00/Evaluation-1/blob/cb062d9da83b1d6e29735b95c822569dd8154a7f/data/browser_rankings_data.csv).
@@ -67,7 +44,7 @@ A. A question arises " Why is 'APP ID' so highly co-related to 'Ranking' than ot
 ## Question-1
 1. Check if the sentence is Grammatically correct: Please use any pre-trained model or use text from open datasets. Once done, please evaluate the English Grammar in the text column of the dataset. [DataSet Link](https://github.com/trickster-00/Evaluation-1/blob/827108220770844b8435b13cd7059dc4531d104f/data/review_data.csv)
 
-Sol. Built a function using Language Tool and TextBlob modules that can take text as input and run tests to check if the sentence is gramatically correct, then applied the function on given dataset. Generated a new dataset with all gramatically incorrect sentences. To check code solution see [(Part 2) Question 1](https://github.com/trickster-00/Evaluation-1/blob/22b5d044946f7fd11643c41fb19c5789cf83da17/(Part%202)%20Question-1.ipynb)
+Sol. Built a function using Language Tool and TextBlob modules that can take text as input and run tests to check if the sentence is gramatically correct, then applied the function on given dataset. Generated a new dataset with all gramatically incorrect sentences. To check code solution see (https://github.com/trickster-00/Evaluation-1/blob/22b5d044946f7fd11643c41fb19c5789cf83da17/(Part%202)%20Question-1.ipynb)
 
 
 ## Questions
