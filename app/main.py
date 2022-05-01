@@ -4,9 +4,7 @@ import pandas as pd
 
 
 
-nltk.download('stopwords')
-from nltk.stem.porter import PorterStemmer
-from nltk.corpus import stopwords
+
 
 port = PorterStemmer()
 
