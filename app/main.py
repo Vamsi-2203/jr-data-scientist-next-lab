@@ -44,7 +44,7 @@ if st.button("Click for Results") :
     df["Result"] = df["Vader_Compound_Score"].apply(lambda c: 'positive' if c > 0 else ('negative' if c < 0 else 'neutral'))
 
     df_focus = df[(df.Result == "positive")]
-     df_focus["Suggestion"] =  df_focus["Star"].apply(lambda star: "No Focus Needed" if star >= 3 else "Attention Needed")
+    df_focus["Suggestion"] =  df_focus["Star"].apply(lambda star: "No Focus Needed" if star >= 3 else "Attention Needed")
 
     keyword = ['good', 'nice', 'thank you', 'best', 'awesome', 'helpful']
 
