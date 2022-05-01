@@ -6,8 +6,7 @@
 ```python
 {"orders":[{"id":1},{"id":2},{"id":3},{"id":4},{"id":5},{"id":6},{"id":7},{"id":8},{"id":9},{"id":10},{"id":11},{"id":648},{"id":649},{"id":650},{"id":651},{"id":652},{"id":653}],"errors":[{"code":3,"message":"[PHP Warning #2] count(): Parameter must be an array or an object that implements Countable (153)"}]}
 ```
-Sol: Wrote a simple regex code to solve the given problem, To see the code solution check [(Part 1) Question-1](https://github.com/trickster-00/Evaluation-1/blob/d1673b5ef76c904c573bb6c7048b60a94a8dc211/(Part%201)%20Question-1.ipynb).
-
+Sol: Wrote a simple regex code to solve the given problem, To see the code solution check in Part A (1Q)
 ## Question-2
 2. There are times when a user writes Good, Nice App or any other positive text, in the review and gives 1-star rating. Your goal is to identify the reviews where the semantics of review text does not match rating. 
 
@@ -16,9 +15,8 @@ Your goal is to identify such ratings where review text is good, but rating is n
 Deploy it using - Flask/Streamlit etc and share the live link.
 
 ## Question-3
-3. Ranking Data - Understanding the co-relation between keyword rankings with description or any other attribute. [Here’s the dataset](https://github.com/trickster-00/Evaluation-1/blob/cb062d9da83b1d6e29735b95c822569dd8154a7f/data/browser_rankings_data.csv).
-
-Sol. To better understand co-relation among variables, performed corelation analysis using Spearman rank correlation coefficient amongst the variable to derive results, To check [(Part 1) Question-3](https://github.com/trickster-00/Evaluation-1/blob/cb062d9da83b1d6e29735b95c822569dd8154a7f/(Part%201)%20Question-3.ipynb)
+3. Ranking Data - Understanding the co-relation between keyword rankings with description or any other attribute. 
+Sol. To better understand co-relation among variables, performed corelation analysis using Spearman rank correlation coefficient amongst the variable to derive results, To check Part A (3Q)
 
 ### Suggested questions:
 ```
@@ -42,16 +40,15 @@ A. A question arises " Why is 'APP ID' so highly co-related to 'Ranking' than ot
 # Part 2
 
 ## Question-1
-1. Check if the sentence is Grammatically correct: Please use any pre-trained model or use text from open datasets. Once done, please evaluate the English Grammar in the text column of the dataset. [DataSet Link](https://github.com/trickster-00/Evaluation-1/blob/827108220770844b8435b13cd7059dc4531d104f/data/review_data.csv)
+1. Check if the sentence is Grammatically correct: Please use any pre-trained model or use text from open datasets. Once done, please evaluate the English Grammar in the text column of the dataset. 
 
-Sol. Built a function using Language Tool and TextBlob modules that can take text as input and run tests to check if the sentence is gramatically correct, then applied the function on given dataset. Generated a new dataset with all gramatically incorrect sentences. To check code solution see (https://github.com/trickster-00/Evaluation-1/blob/22b5d044946f7fd11643c41fb19c5789cf83da17/(Part%202)%20Question-1.ipynb)
-
+Sol. Built a function using Language Tool and TextBlob modules that can take text as input and run tests to check if the sentence is gramatically correct, then applied the function on given dataset. Generated a new dataset with all gramatically incorrect sentences. To check code solution see Part B (1Q)
 
 ## Questions
 
 1. Write about any difficult problem that you solved. (According to us difficult - is something which 90% of people would have only 10% probability in getting a similarly good solution). 
 
-A. During a project where I given a task to build a machine learning model that predicts if a website domain is real or malicious, the model was also supposed to be deployed as an API which takes user input of an URL, The deployment process was particularly difficult as model had many features and data preprocessing was to be done on each feature to match user's input. After alot of time & effort we managed to get the work done.
+A. During a project where I given a task to build a machine learning model and deep learning model that predicts if a website domain is real, the model was also supposed to be deployed as an API which takes user input of an URL, The deployment process was particularly difficult as model had many features and data preprocessing was to be done on each feature to match user's input. After alot of time & effort we managed to get the work done.
 
 2. Formally, a vector space V' is a subspace of a vector space V if
 -  V' is a vector space
